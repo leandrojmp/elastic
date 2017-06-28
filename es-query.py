@@ -3,9 +3,9 @@ from datetime import datetime
 from elasticsearch import Elasticsearch
 
 # variables
-esHost = 'http://localhost:9200' # defineo host do elasticsearch
+esHost = 'http://localhost:9200' # elastic hostname:port
 
-# principal
+# main loop
 es = Elasticsearch([esHost])
 
 #clusterHealth = es.cluster.health()
