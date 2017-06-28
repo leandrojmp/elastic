@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #
 # es-query.py
+# v: 0.1
 # script to query elasticsearch and simplify admin tasks 
 # 
 from datetime import datetime
