@@ -4,6 +4,7 @@
 # v: 0.1
 # script to query elasticsearch and simplify admin tasks 
 # 
+# imports
 from datetime import datetime
 from elasticsearch import Elasticsearch
 from sys import argv
