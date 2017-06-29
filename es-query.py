@@ -6,6 +6,7 @@
 # 
 from datetime import datetime
 from elasticsearch import Elasticsearch
+from sys import argv
 
 # variables
 esHost = 'http://localhost:9200' # elastic hostname:port
