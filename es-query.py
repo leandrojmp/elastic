@@ -13,6 +13,7 @@ from sys import argv
 esHost = 'http://localhost:9200' # elastic hostname:port
 
 # main loop
+
 es = Elasticsearch([esHost])
 
 #clusterHealth = es.cluster.health()
