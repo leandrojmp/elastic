@@ -1,3 +1,3 @@
 # elastic
 
-scripts and other files relatd to elasticsearch
+scripts and other files related to elasticsearch
