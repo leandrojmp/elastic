@@ -1,2 +1,3 @@
-# es-query
-python scripts to query elasticsearch
+# elastic
+
+scripts and other files relatd to elasticsearch
