@@ -26,7 +26,7 @@
   "aggs": {
     "2": {
       "terms": {
-        "field": "ip.src",
+        "field": "ip.dst",
         "size": 10,
         "order": {
           "_count": "desc"

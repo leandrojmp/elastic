@@ -1,6 +1,7 @@
 from datetime import datetime
 from elasticsearch import Elasticsearch
 from sys import argv, exit
+from os import remove 
 
 # check the script parameters
 
@@ -26,7 +27,12 @@ result = es.search(index="fw-traffic-*",body=qry) # store the result of the quer
 totalHits = result['hits']['total'] # get the total hits
 
 # check if the query returned any hit
-if totalHits > 0: 
+if totalHits > 0:
+    # remove the csv file if it exists
+    try: 
+        remove('es2csv-top10.csv')
+    except OSError:
+        pass
     es2csv = open('es2csv-top10.csv','a') # create a file to store the results
     print(columnName + "," + "count",file=es2csv)
     for hit in result['aggregations']['2']['buckets']:
