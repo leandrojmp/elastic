@@ -58,7 +58,7 @@ python3 es2csv-top10.py -c columnName
 
 You need to pass the name of the column you want as the first field in the .csv file.
 
-For example, using the command `python3 es2csv-top10.csv -c src_ip`, the header output will be `src_ip,count`
+For example, using the command `python3 es2csv-top10.py -c src_ip`, the header output will be `src_ip,count`
 
 ```
 src_ip,count
