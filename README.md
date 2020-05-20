@@ -1,3 +1,3 @@
 # elastic
 
-scripts and other files related to elasticsearch
+configurações, scripts, snippets e outras coisas relacionadas a elastic stack.
